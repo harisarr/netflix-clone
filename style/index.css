@@ -1,0 +1,190 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  color: red;
+  font-size: 32px !important;
+}
+.button {
+  background-color: red;
+  color: white;
+  border: unset;
+  padding: 12px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  background: url(/assets/background.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.subcontainer {
+  padding: 20px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 100vh;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+}
+.text-white {
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  width: 100%;
+}
+.submain {
+  text-align: center;
+  width: 50%;
+}
+.box-email {
+  background: white;
+  padding: 16px;
+  text-align: left;
+  margin-top: 16px;
+}
+input {
+  border: unset;
+  font-size: 14px;
+}
+input:focus {
+  outline-offset: unset;
+  outline: unset;
+}
+/* bastas section-one */
+.section-two {
+  padding: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.description {
+  width: 50%;
+}
+.video {
+  width: 50%;
+  text-align: center;
+}
+/* batas section-two */
+.section-three {
+  padding: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin-top: -100px;
+  background: black;
+}
+.gridone {
+  width: 25%;
+}
+.gridtwo {
+  width: 50%;
+}
+.gridthree {
+  width: 25%;
+}
+.text-blue {
+  color: blue;
+}
+.img {
+  height: 50px;
+}
+.gif {
+  height: 50px;
+}
+/* batas section-three */
+.section-four {
+  padding: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.description {
+  width: 50%;
+}
+/* batas section-four */
+.section-five {
+  padding: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.description2 {
+  margin-left: 20px;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  .submain {
+    text-align: center;
+    width: 100%;
+  }
+  .section-two {
+    display: block;
+    padding: 16px;
+  }
+  .description {
+    width: 100%;
+  }
+  .section-five {
+    display: block;
+    padding: 16px;
+  }
+  .section-three {
+    display: block;
+    padding: 16px;
+  }
+  .section-four {
+    display: block;
+    padding: 16px;
+  }
+  .asset-responsive {
+    max-width: 300px;
+  }
+  .grid {
+    width: 250px;
+    margin-top: -50px;
+  }
+}
