@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: url(/assets/background.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.subcontainer {
+  padding: 20px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 100vh;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.logo {
+  color: red;
+  font-size: 32px !important;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+}
+.title {
+  color: white;
+}
+.input-box {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 6px;
+  width: 310px;
+  margin-bottom: 16px;
+}
+input {
+  background-color: transparent;
+  border: unset;
+  font-size: 16px;
+  width: 100%;
+}
+input:focus {
+  outline-offset: unset;
+  outline: unset;
+}
+.button {
+  background: red;
+  color: white;
+  margin-top: 0px;
+  display: inline-block;
+  width: 92%;
+  border: unset;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+p {
+  color: grey;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+}
+.check-box {
+  display: flex;
+  align-items: center;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+}

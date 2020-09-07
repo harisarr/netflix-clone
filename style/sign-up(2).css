@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background: #fff;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.logo {
+  color: red;
+  font-size: 32px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paperwork {
+  font-size: 19px;
+  width: 65%;
+}
+.membership {
+  font-size: 23px;
+  width: 65%;
+  margin-bottom: 9;
+}
+.input-box {
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 6px;
+  width: 310px;
+  margin-bottom: 16px;
+}
+input {
+  background-color: transparent;
+  border: unset;
+  font-size: 16px;
+  width: 100%;
+}
+input:focus {
+  outline-offset: unset;
+  outline: unset;
+}
+.button {
+  background: red;
+  color: white;
+  width: 310px;
+  border: unset;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
